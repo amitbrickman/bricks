@@ -1,0 +1,17 @@
+{
+  "name": "bricki-css",
+  "version": "1.0.18",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pushpublish": "webpack && git add . && git commit -m 'publish' && git push && npm publish",
+    "gopublish": "webpack && npm publish"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^5.2.7",
+    "style-loader": "^2.0.0"
+  }
+}
