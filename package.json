@@ -1,11 +1,11 @@
 {
   "name": "bricki-css",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pushpublish": "webpack && git add . && git commit -m 'publish' && git push && npm publish",
+    "pushpublish": "node deploy",
     "gopublish": "webpack && npm publish"
   },
   "author": "",
