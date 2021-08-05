@@ -1,1 +1,2 @@
-# bricks
+# Bricks
+css library for personal uses
