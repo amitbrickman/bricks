@@ -1,17 +1,20 @@
 {
-  "name": "bricks",
+  "name": "brickss",
   "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
+  "description": "Tiny css framework",
+  "keywords": [
+    "css",
+    "style",
+    "tutorial"
+  ],
+  "homepage": "https://github.com/amitbrickman/bricks",
+  "bugs": {
+    "email": "amitbrickman@gmail.com"
+  },
+  "main": "bricki.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "publush": "node deploy",
     "gopublish": "webpack && npm publish"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "css-loader": "^5.2.7",
-    "style-loader": "^2.0.0"
-  }
+  "author": "Amit Brickman <amitbrickman@gmail.com>"
 }
